@@ -1,0 +1,19 @@
+.item{
+    background-color: #b1dddf;
+        height: 400px;
+        width: 350px;
+        margin: 50px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: solid 1px white;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #0cc0df;
+    padding: 5px;
+    border-radius: 5px;
+  }
