@@ -52,7 +52,7 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 100;
@@ -71,4 +71,61 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
+}
+.heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #666666;
+}
+.container{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #e6e6e6;
+
+}
+.item{
+    background-color: #bfbfbf;
+    height: 330px;
+    width: 300px;
+    margin: 10px auto;
+    font-size: 50px;
+    border-radius: 10px;
+    border: solid 3px white;
+}
+.img{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit:cover ;
+}
+
+
+.p-description{
+    text-align: justify;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    left: 95px;
+    bottom: 30px;
+
+}
+.price{
+    text-align: center;
+    font-size: 20px;
 }
