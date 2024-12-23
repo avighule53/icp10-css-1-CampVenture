@@ -1,3 +1,31 @@
+nav {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+
 .item{
     background-color: #b1dddf;
         height: 400px;
