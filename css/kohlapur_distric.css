@@ -25,6 +25,15 @@ nav ul li a {
     font-size: 1.1rem;
 }
 
+.heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    background-color: #c6d9eb;
+    color: #002733;
+}
+
 
 .item{
     background-color: #b1dddf;
@@ -32,18 +41,30 @@ nav ul li a {
         width: 350px;
         margin: 30px;
         font-size: 20px;
+        text-align: center;
         padding: 10px;
         border-radius: 10px;
-        border: solid 1px white;
+        border: none;
 }
+
+.item:hover {
+    background-color: #6699cc;
+    color: #b1dddf;
+    transition: 1s;
+    box-shadow: 2px 5px 5px 5px #6699cc;
+  }
 
 .container {
     height: 100%;
     width: 100%;
     display: flex;
     background-color: #cce6ff;
-    padding: 5px;
-    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px 5px;
+    border-radius: none;
+    margin: auto;
+    
   }
 
   img{
@@ -51,3 +72,9 @@ nav ul li a {
      width: 310px;
      margin: 10px;
   }
+  #img:hover{
+    box-sizing: border-box;
+
+  }
+
+  
