@@ -1,0 +1,83 @@
+.price {
+    text-align: center;
+    font-size: 20px;
+}
+.heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #666666;
+}
+
+.container {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #e6e6e6;
+
+}
+.container:hover{
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.item {
+    background-color: #bfbfbf;
+    height: 330px;
+    width: 300px;
+    margin: 10px auto;
+    font-size: 50px;
+    border-radius: 10px;
+
+}
+
+.item:hover {
+    border: solid 4px white;
+    transition: 0.5s;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    margin: 0px;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.p-description {
+    text-align: justify;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.p-description:hover {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: 0.5s;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    left: 95px;
+    bottom: 30px;
+
+}
+.btn:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: #cccccc;
+    transition: 0.5s;
+}
