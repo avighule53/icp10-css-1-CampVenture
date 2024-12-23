@@ -32,11 +32,14 @@ nav ul li a {
     text-align: center;
     background-color: #c6d9eb;
     color: #002733;
-}
+
+    }
+
 
 
 .item{
     background-color: #b1dddf;
+    color: rgb(65, 65, 45);
         height: 400px;
         width: 350px;
         margin: 30px;
@@ -48,10 +51,10 @@ nav ul li a {
 }
 
 .item:hover {
-    background-color: #6699cc;
-    color: #b1dddf;
+    background-color: #80c7cb;
+    color: #173436;
     transition: 1s;
-    box-shadow: 2px 5px 5px 5px #6699cc;
+    box-shadow: 2px 5px 5px 5px #449da2;
   }
 
 .container {
