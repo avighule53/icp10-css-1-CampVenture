@@ -54,6 +54,7 @@
     text-align: justify;
     font-size: 15px;
     padding: 0 10px;
+    margin-bottom: 0px;
 }
 
 .p-description:hover {
@@ -72,7 +73,8 @@
     border: none;
     position: relative;
     left: 100px;
-    bottom:15px;
+    bottom:50px;
+    margin-top: 20px;
 
 }
 .btn:hover{
