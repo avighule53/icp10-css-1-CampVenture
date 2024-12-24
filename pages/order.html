@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>billing</title>
 </head>
+
 <body>
     <div>
         <h3>BILLING DETAILS</h3>
         <form>
-            <input type="text"
-            name="username"
-            placeholder="Full Name"
+            <input type="text" name="username" placeholder="Full Name"><br>
+            <input type="email" name="email" placeholder="Enail"><br>
+            <input type="text" name="address" placeholder="Address"><br>
+            <input type="text" name="city" placeholder="city"><br>
+            <div>
+                <div>
+                    <input type="text" name="country" placeholder="Country">
+                </div>
+                <div>
+                    <input type="number" name="code" placeholder="Enter Code">
+
+                </div>
+            </div>
         </form>
     </div>
     <div>
         <h3>PAYMENT </h3>
+        <form>
+            <input type="text" name="text" placeholder="text"><br>
+            <input type="text" name="card_holder_name" placeholder="Card Holder Name"><br>
+            <input type="text" name="Credit_card_number" placeholder="Credit Card Number"><br>
+            <input type="number" name="exp_month" placeholder="Exp. Month"><br>
+            <div>
+                <div>
+                    <input type="number" name="exp_year" placeholder="Exp. year">
+                </div>
+                <div>
+                    <input type="number" name="CVV" 
+                    placeholder="CVV">
+                </div>
+            </div>
+        </form>
     </div>
 </body>
+
 </html>
