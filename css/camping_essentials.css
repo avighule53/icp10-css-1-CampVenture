@@ -71,8 +71,8 @@
     border-radius: 20px;
     border: none;
     position: relative;
-    left: 95px;
-    bottom: 30px;
+    left: 100px;
+    bottom:15px;
 
 }
 .btn:hover{
@@ -80,4 +80,15 @@
     color: black;
     background-color: #cccccc;
     transition: 0.5s;
+}
+.search-box{
+    border: none;
+    border-radius: 15px;
+    padding: 0px 10px;
+    width: 250px;
+}
+.logo img{
+    height: 30px;
+    margin-right: 400px;
+
 }
