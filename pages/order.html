@@ -5,45 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>billing</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: lightblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h3{
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .container{
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            border-radius: 25px;
+            padding: 40px;
+        }
+        .inputs{
+            font-size: 15px;
+            height: 25px;
+            width: 300px;
+            border-radius: 25px;
+            border: 1px solid #ccc;
+            outline: none;
+            text-indent: 20px;
+            margin-bottom: 15px;
+            position: relative;
+            left: 90px;
+            
+        }
+        .sub-section{
+            display: flex;
+    
+        }
+        .small{
+            width: 200px;
+            border-radius: 25px;
+            outline: none;
+            text-indent: 20px;
+            margin-bottom: 15px;
+            color: white;
+            font-size: 15px;
+            height: 25px;
+
+        }
+        .tiny{
+            position: relative;
+            left: 40px;
+
+        }
+        .div-sub{
+            display: flex;
+            margin-top: 10px;
+        }
+        .btn{
+            width: 200px;
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+
+        }
+        .sub{
+            position: relative;
+            left: 30px;
+            padding: 0px 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h3>BILLING DETAILS</h3>
         <form>
-            <input type="text" name="username" placeholder="Full Name"><br>
-            <input type="email" name="email" placeholder="Enail"><br>
-            <input type="text" name="address" placeholder="Address"><br>
-            <input type="text" name="city" placeholder="city"><br>
-            <div>
-                <div>
-                    <input type="text" name="country" placeholder="Country">
+            <input class="inputs" type="text" name="username" placeholder="Full Name"><br>
+            <input class="inputs" type="email" name="email" placeholder="Email"><br>
+            <input class="inputs" type="text" name="address" placeholder="Address"><br>
+            <input class="inputs" type="text" name="city" placeholder="city"><br>
+            <div class="sub-section">
+                <div class="small">
+                    <input class="tiny" type="text" name="country" placeholder="Country">
                 </div>
-                <div>
-                    <input type="number" name="code" placeholder="Enter Code">
+                <div class="small">
+                    <input class="tiny"  type="number" name="code" placeholder="Enter Code">
 
                 </div>
             </div>
         </form>
-    </div>
-    <div>
+    </div><br>
+    <div class="container">
         <h3>PAYMENT </h3>
         <form>
-            <input type="text" name="text" placeholder="text"><br>
-            <input type="text" name="card_holder_name" placeholder="Card Holder Name"><br>
-            <input type="text" name="Credit_card_number" placeholder="Credit Card Number"><br>
-            <input type="number" name="exp_month" placeholder="Exp. Month"><br>
-            <div>
-                <div>
-                    <input type="number" name="exp_year" placeholder="Exp. year">
+            <input class="inputs" type="text" name="text" placeholder="text"><br>
+            <input class="inputs" type="text" name="card_holder_name" placeholder="Card Holder Name"><br>
+            <input class="inputs" type="text" name="Credit_card_number" placeholder="Credit Card Number"><br>
+            <input class="inputs" type="number" name="exp_month" placeholder="Exp. Month"><br>
+            <div class="sub-section">
+                <div class="small" >
+                    <input class="tiny" type="number" name="exp_year" placeholder="Exp. year">
                 </div>
-                <div>
-                    <input type="number" name="CVV" 
+                <div class="small">
+                    <input class="tiny"  type="number" name="CVV" 
                     placeholder="CVV">
                 </div>
             </div>
         </form>
+        <div class="div-sub">
+            <div class="sub" >
+                <input class="btn" type="submit" value="Cancel">
+            </div>
+            <div class="sub" >
+                <input class="btn" type="Submit" value="Submit">
+            </div>
+        </div>
     </div>
+   
 </body>
 
 </html>
