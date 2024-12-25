@@ -37,6 +37,29 @@
                font-weight: 700;
                color: #2ecc71;
            } 
+           .search-icon {
+               display: flex;
+               align-items: center;
+           }
+           .search-icon input {
+               padding: 8px 15px;
+               border-radius: 20px;
+               border: none;
+               outline: none;
+               background-color: #55687b;
+               color: #ecf0f1;
+               font-size: 1em;
+               transition: background-color 0.3s ease;
+           }
+           .search-icon input::placeholder {
+               color: #bdc3c7;
+               font-style: italic;
+           }
+           .search-icon input:focus {
+               background-color: #2ecc71;
+               color: #2a3d45;
+               box-shadow: 0 0 5px rgba(46, 204, 113)
+           }
     </style>
     <title>Pune District</title>
 </head>
@@ -52,6 +75,9 @@
                 <li><a href="#">Spot</a></li>
                 <li><a href="#">Buy-Essentials</a></li>
             </ul>
+            <div class="search-icon">
+                <input type="text" placeholder="Search...">
+            </div>
         </nav>
     </div>
 </body>
