@@ -5,3 +5,8 @@
     width: auto;
     border-radius: 5px;
    }
+   .title {
+    font-size: 36px;
+    color: black;
+    margin: 2%0px;
+}
