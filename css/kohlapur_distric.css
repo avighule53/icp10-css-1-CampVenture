@@ -1,19 +1,83 @@
+nav {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    background-color: #c6d9eb;
+    color: #002733;
+
+    }
+
+
+
 .item{
     background-color: #b1dddf;
+    color: rgb(65, 65, 45);
         height: 400px;
         width: 350px;
-        margin: 50px;
+        margin: 30px;
         font-size: 20px;
+        text-align: center;
         padding: 10px;
         border-radius: 10px;
-        border: solid 1px white;
+        border: none;
 }
+
+.item:hover {
+    background-color: #80c7cb;
+    color: #173436;
+    transition: 1s;
+    box-shadow: 2px 5px 5px 5px #449da2;
+  }
 
 .container {
     height: 100%;
     width: 100%;
     display: flex;
-    background-color: #0cc0df;
-    padding: 5px;
-    border-radius: 5px;
+    background-color: #cce6ff;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px 5px;
+    border-radius: none;
+    margin: auto;
+    
   }
+
+  img{
+     height: 260px;
+     width: 310px;
+     margin: 10px;
+  }
+  #img:hover{
+    box-sizing: border-box;
+
+  }
+
+  
