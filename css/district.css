@@ -68,3 +68,37 @@
     border: none;
     text-decoration: none;
 }
+.footer {
+    background-color: #e6e6e6;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer-section {
+    width: 30%;
+}
+.footer-section h3 {
+    font-size: 18px;
+    color: #171616;
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style-type: none;
+}
+.footer-section li {
+    margin: 8px 0;
+}
+.footer-section a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+.footer-section a:hover {
+    color: #666666;
+}
