@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/district.css">
+    <style>
+        .navbar {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               background-color: #2a3d45;
+               color: #ecf0f1;
+               padding: 15px 30px;
+               box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+               position: sticky;
+               top: 0;
+           }
+           .nav-links {
+               list-style: none;
+               display: flex;
+               gap: 25px;
+               margin: 0;
+               padding: 0;
+           }
+           .nav-links li {
+               display: inline;
+           }
+           .nav-links a {
+               text-decoration: none;
+               color: #ecf0f1;
+               font-size: 1.2em;
+               transition: color 0.3s ease;
+           }
+           .nav-links a:hover {
+               color: #2ecc71;
+           }
+           .logo span {
+               font-size: 1.8em;
+               font-weight: 700;
+               color: #2ecc71;
+           } 
+           .search-icon {
+               display: flex;
+               align-items: center;
+           }
+           .search-icon input {
+               padding: 8px 15px;
+               border-radius: 20px;
+               border: none;
+               outline: none;
+               background-color: #55687b;
+               color: #ecf0f1;
+               font-size: 1em;
+               transition: background-color 0.3s ease;
+           }
+           .search-icon input::placeholder {
+               color: #bdc3c7;
+               font-style: italic;
+           }
+           .search-icon input:focus {
+               background-color: #2ecc71;
+               color: #2a3d45;
+               box-shadow: 0 0 5px rgba(46, 204, 113)
+           }
+    </style>
+    <title>Pune District</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <span>🌲 Camp Venture</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Spot</a></li>
+                <li><a href="#">Buy-Essentials</a></li>
+            </ul>
+            <div class="search-icon">
+                <input type="text" placeholder="Search...">
+            </div>
+        </nav>
+        <h1 class="title">Explore Our Camping Locations</h1>
+        <div class="camping-location-main">
+            <div class="camping-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <img src="../images/pune_img/pawna.jpg" class="img1">
+                <h3><a href="https://www.google.com/maps/search/pawna+lake+camping/@18.6745635,73.371294,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img src="../icons/location.png" height="20px" width="20px"></a> Pawna Lake</h3>
+                <p class="paragraph">Enjoy serene views of the lake and peaceful surroundings.</p>
+                <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+            </div>
+            <div class="camping-location">
+                <img src="../images/pune_img/rajgad_fort.jpg" class="img1">
+                <h3><a href="https://www.google.com/maps/search/rajgad+fort+camping+location/@18.2576006,73.6423444,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"target="_blank">
+                    <img src="../icons/location.png" height="20px" width="20px" class="img-location"></a>Rajgad Fort</h3>
+                <p class="paragraph">Escape to the mountains for a relaxing getaway.</p>
+                <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+            </div>
+            <div class="camping-location">
+                <img src="../images/pune_img/torna.jpg" class="img1">
+                <h3><a href="https://www.google.com/maps/place/%E0%A4%A4%E0%A5%8B%E0%A4%B0%E0%A4%A3%E0%A4%BE+%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE/@18.2769418,73.6193409,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2853370b087a1:0x66392c8c550573ec!8m2!3d18.2769367!4d73.6219158!16s%2Fm%2F03mgvdg?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img src="../icons/location.png" height="20px" width="20px" class="img-location"></a>Torna Fort</h3>
+                <p class="paragraph">Immerse yourself in nature at this forest-side location.</p>
+                <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+            </div>
+            <div class="camping-location">
+                <img src="../images/pune_img/mulsi.jpg"class="img1">
+                <h3><a href="https://www.google.com/maps/place/Mulshi+Lake+Camping+And+Farmhouse/@18.4776633,73.4665926,15z/data=!3m1!4b1!4m6!3m5!1s0x3bc2a18d334086ef:0xec977a84f41733e6!8m2!3d18.4776438!4d73.4850467!16s%2Fg%2F11h90xzfmt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img src="../icons/location.png" height="20px" width="20px" class="img-location"></a>Mulsi Lake</h3>
+                <p class="paragraph">Experience the tranquility of the desert landscape.</p>
+                <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+            </div>
+            <div class="camping-location">
+                <img src="../images/pune_img/sinhagad.jpg" class="img1">
+                <h3><a href="https://www.google.com/maps/place/%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9%E0%A4%97%E0%A4%A1/@18.3662965,73.7374236,15z/data=!3m1!4b1!4m6!3m5!1s0x3bc293e6861118d9:0xcbb4d589c7d4e90b!8m2!3d18.366277!4d73.7558777!16zL20vMDVra3lk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img src="../icons/location.png" height="20px" width="20px"class="img-location"></a>Sinhagad Fort</h3>
+                <p class="paragraph">Wake up to the sound of waves with this beachside camp.</p>
+                <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+            </div>
+            <div class="camping-location">
+                <img src="../images/pune_img/panshet.jpg"class="img1">
+                <h3><a href="https://www.google.com/maps/place/panshet+dam+camping/@18.366963,73.6073353,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc29b1cc96b5cbd:0x73670a6bb556c371!8m2!3d18.3669579!4d73.6099102!16s%2Fg%2F11k2z9ffkh?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img src="../icons/location.png" height="20px" width="20px" class="img-location"></a> Panshet Dam</h3>
+                <p class="paragraph">Perfect spot for fishing and riverside relaxation.</p>
+                <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+            </div>        
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Guided camping tours</a></li>
+                        <li><a href="#">tent rentals</a></li>
+                        <li><a href="#">adventure activities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
