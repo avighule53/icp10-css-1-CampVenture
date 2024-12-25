@@ -5,8 +5,50 @@
     width: auto;
     border-radius: 5px;
    }
-   .title {
+.title {
     font-size: 36px;
     color: black;
     margin: 2%0px;
+   }
+.camping-location-main{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+   }
+.camping-location{
+    width: 30%;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    color: black;
+    transition: transform 0.3s ease;
+
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #bfbfbf;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 16px;
+    color: black;
+    padding: 20px;
+   }
+.camping-location:hover {
+    transform: translateY(-10px);
+}
+.camping-location h3 {
+    font-size: 22px;
+    color: #0a0909;
+    margin-top: 10px;
+}
+.camping-location p {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
 }
