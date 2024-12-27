@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sindhudurg District</title>
+   <style>
+    .navbar {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           background-color: #2a3d45;
+           color: #ecf0f1;
+           padding: 15px 30px;
+           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+           position: sticky;
+           top: 0;
+           z-index: 100;
+       }
+       .nav-links {
+           list-style: none;
+           display: flex;
+           gap: 25px;
+           margin: 0;
+           padding: 0;
+       }
+       .nav-links li {
+           display: inline;
+       }
+       .nav-links a {
+           text-decoration: none;
+           color: #ecf0f1;
+           font-size: 1.2em;
+           transition: color 0.3s ease;
+       }
+       .nav-links a:hover {
+           color: #2ecc71;
+       }
+       .logo span {
+           font-size: 1.8em;
+           font-weight: 700;
+           color: #2ecc71;
+       } 
+       .search-icon {
+           display: flex;
+           align-items: center;
+       }
+       .search-icon input {
+           padding: 8px 15px;
+           border-radius: 20px;
+           border: none;
+           outline: none;
+           background-color: #55687b;
+           color: #ecf0f1;
+           font-size: 1em;
+           transition: background-color 0.3s ease;
+       }
+       .search-icon input::placeholder {
+           color: #bdc3c7;
+           font-style: italic;
+       }
+       .search-icon input:focus {
+           background-color: #2ecc71;
+           color: #2a3d45;
+           box-shadow: 0 0 5px rgba(46, 204, 113)
+       }
+</style>
+</head>
+<body>
+   <div class="container">
+      <nav class="navbar">
+          <div class="logo">
+              <span>🌲 Camp Venture</span>
+          </div>
+          <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Spot</a></li>
+              <li><a href="#">Buy-Essentials</a></li>
+          </ul>
+          <div class="search-icon">
+              <input type="text" placeholder="Search...">
+          </div>
+      </nav>
+      <h1 class="title">Explore Our Camping Locations</h1>
+      <div class="camping-location-main">
+        <div class="camping-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <img src="./../images/tarkarli_beach4.jpg" class="img1">
+            <h3><a href="https://www.google.com/maps/place/Tarkarli+Beach/@16.015648,73.4657046,14z/data=!3m1!4b1!4m6!3m5!1s0x3bc002678e3801d1:0xa2cb4081dd152476!8m2!3d16.0136864!4d73.4898334!16s%2Fg%2F11b77hg5d_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                <img src="../icons/location.png" height="20px" width="20px"></a>Tarkarli Beach</h3>
+            <p class="paragraph">Tarkarli Beach is a beautiful and clean beach located in the Malvan town of Sindhudurg district in Maharashtra.</p>
+            <a href="../pages/order.html" target="_blank" class="btn">Book Now</a>
+        </div>
+</body>
+</html>
