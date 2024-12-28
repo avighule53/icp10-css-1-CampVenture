@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+        .container{
+            height: auto;
+            width: auto;
+            background-color: #e6e6e6;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2a3d45;
+            color: #ecf0f1;
+            padding: 15px 30px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            border-radius: 5px 0;
+            z-index: 100;
+           }
+           .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+           }
+           .nav-links li {
+            display: inline;
+           }
+           .nav-links a {
+            text-decoration: none;
+            color: #ecf0f1;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+           }
+           .nav-links a:hover {
+            color: #2ecc71;
+           }
+           .logo span {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2ecc71;
+           } 
+           .search-icon {
+            display: flex;
+            align-items: center;
+           }
+           .search-icon input {
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            background-color: #55687b;
+            color: #ecf0f1;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+           }
+           .search-icon input::placeholder {
+            color: #bdc3c7;
+            font-style: italic;
+           }
+           .search-icon input:focus {
+            background-color: #2ecc71;
+            color: #2a3d45;
+            box-shadow: 0 0 5px rgba(46, 204, 113)
+           }
+           .spot{
+            background-color: #bfbfbf;
+            height: 400px;
+            width: 500px;
+            border: 2px solid #676363;
+            border-radius: 5px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.1s ease;
+           }
+           .sub-container{ 
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 120px;
+            gap: 30px;
+           }
+           .spot:hover {
+            transform: translateY(-3px);
+            }
+           .spot-img{
+            height: 300px;
+            width: 450px;
+            margin: 0 0 0 10px;
+            padding: 15px;
+           }
+           h1{
+            font-weight: 20px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 0.5px;
+           }
+    </style>
+    <title>Spots</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <span>🌲 Camp Venture</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./spots.html">Spots</a></li>
+                <li><a href="./camping_essentials.html">Buy-Essentials</a></li>
+            </ul>
+            <div class="search-icon">
+                <input type="text" placeholder="Search...">
+            </div>
+        </nav>
+        <div class="sub-container">
+            <div class="spot">
+                <a href="../pages/pune_district.html" target="_blank">
+                <img src="../images/spots/pune.jpg" class="spot-img">
+                </a>
+                <h1>Pune</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/nashik_district.html" target="_blank">
+                <img src="../images/spots/nashik.jpg" class="spot-img">
+                </a>
+                <h1>Nashik</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/satara_district.html" target="_blank">
+                <img src="../images/spots/satara1.jpg" class="spot-img">
+                </a>
+                <h1>Satara</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/#" target="_blank">
+                <img src="../images/spots/thane.jpg" class="spot-img">
+                </a>
+                <h1>Thane</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/raigad_district.html" target="_blank">
+                <img src="../images/spots/raigad.jpg" class="spot-img">
+                </a>
+                <h1>Raigad</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/sindhudurg_district.html" target="_blank">
+                <img src="../images/spots/sindhudurg.jpg" class="spot-img">
+                </a>
+                <h1>Sindhudurg</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/ahmednagar.html" target="_blank">
+                <img src="../images/spots/nagar.jpg" class="spot-img">
+                </a>
+                <h1>Ahmednagar</h1>
+            </div>
+            <div class="spot">
+                <a href="../pages/kohlapur_dist.html" target="_blank">
+                <img src="../images/spots/kolhapur.jpg" class="spot-img">
+                </a>
+                <h1>Kolhapur</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
