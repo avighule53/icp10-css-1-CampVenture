@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
- body {
+body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #f9f9f9;
@@ -12,24 +12,22 @@
     height: auto;
     width: auto;
     border-radius: 5px;
-    flex-wrap: wrap;
-    justify-content:space-around;
    }
 .title {
     font-size: 36px;
     color: black;
-    margin: 2%0px;
+    margin: 2%;
    }
 .camping-location-main{
     margin: 30px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: space-between;
+     
    }
 .camping-location{
-    width: 30%;
+    width:370px;
     background-color: #bfbfbf;
     border-radius: 10px;
     overflow: hidden;
@@ -38,6 +36,7 @@
     padding: 20px;
     color: black;
     transition: transform 0.3s ease;
+   justify-content: space-evenly;
 
     display: inline-block;
     padding: 8px 16px;
@@ -48,6 +47,8 @@
     margin-top: 16px;
     color: black;
     padding: 20px;
+   margin-bottom: 30px;
+    
    }
 .camping-location:hover {
     transform: translateY(-10px);
@@ -62,9 +63,12 @@
     color: black;
     margin-top: 10px; 
 }
+.camping-location1 {
+    margin-bottom: 0px;
+}
 .img1 {
     width: 100%;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     border: 1px solid black;
@@ -94,9 +98,11 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    
 }
 .footer-section {
     width: 30%;
+    
 }
 .footer-section h3 {
     font-size: 18px;
